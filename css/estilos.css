@@ -94,17 +94,18 @@ h2{
     
 }    
 
-.banner span {
+.banner span a {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 1rem;
+    text-decoration: none;
     color: #ffffff;
     border: 2px solid #ffffff;
     padding: 1rem;
 }
 
 
-.banner span:hover{
+.banner span a:hover{
     background-color:#ffffff;
     color: #9168AA;
     transition: 1s;
@@ -114,7 +115,10 @@ h2{
 /*SERVICIOS*/
 
 .servicios{
-margin: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+margin: auto;
+max-width: 90%;
 }
 
 .servicios h3,
@@ -722,7 +726,7 @@ form option{
 
  header nav{
     position: fixed;
-    top:-100%;
+    top:-150%;
     left:0;
     width: 100%;
     height: 100vh;
